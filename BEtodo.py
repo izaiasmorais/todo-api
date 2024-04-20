@@ -28,8 +28,8 @@ banco: List[Task] = []
 
 
 @app.get("/")
-def hello_world():
-    return "Fala, izaias! bem vindo ao Back end do to-do!"
+def hello():
+    return "Server is running!"
 
 
 @app.get("/tasks")
